@@ -1,0 +1,84 @@
+.number-sets {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+  width: 100%;
+}
+.number-sets.one .number {
+  margin: 0 2rem;
+  margin-bottom: 16rem;
+  padding: 0 2rem;
+}
+.number-sets.one .number.r {
+  color: royalblue;
+}
+.number-sets.one .number.q {
+  color: crimson;
+}
+.number-sets.one .number.z {
+  color: yellowgreen;
+}
+.number-sets.one .number.n {
+  color: salmon;
+}
+
+.number-sets.two .number {
+  border-radius: 10%;
+  margin: 0 1rem;
+  padding: 0 2rem;
+}
+.number-sets.two .number.r {
+  background-color: royalblue;
+}
+.number-sets.two .number.q {
+  background-color: crimson;
+}
+.number-sets.two .number.z {
+  background-color: yellowgreen;
+}
+.number-sets.two .number.n {
+  background-color: salmon;
+}
+
+.number-sets.three {
+  position: relative;
+}
+.number-sets.three .number {
+  border-radius: 50%;
+  margin: 0 1rem;
+  position: absolute;
+  right: 0;
+}
+.number-sets.three .number .number-align {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.number-sets.three .number.r {
+  background-color: royalblue;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+.number-sets.three .number.q {
+  background-color: crimson;
+  height: 75vh;
+  width: 75%;
+  z-index: 2;
+}
+.number-sets.three .number.z {
+  background-color: yellowgreen;
+  height: 50vh;
+  width: 50%;
+  z-index: 3;
+}
+.number-sets.three .number.n {
+  background-color: salmon;
+  height: 25vh;
+  width: 25%;
+  z-index: 4;
+}
+
+/*# sourceMappingURL=stylesMain.css.map */
